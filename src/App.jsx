@@ -52,7 +52,7 @@ function App() {
 
       <div className="weather-cards">
         {loading ? (
-          <p>Loading...</p>
+          <p>Loading data...</p>
         ) : (
           weather.map((wea, idx) => (
             <div key={idx} className="weather-card">
